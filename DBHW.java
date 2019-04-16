@@ -13,7 +13,7 @@ public class DBHW {
             //create connection
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Connect to the database system in dijkstra");
-            Connection c_conn = DriverManager.getConnection("jdbc:mysql://dijkstra.ug.bcc.bilkent.edu.tr/firat_yildiz", "firat.yildiz", "GUIALvOp");
+            Connection c_conn = DriverManager.getConnection("jdbc:mysql://dijkstra.ug.bcc.bilkent.edu.tr/firat_yildiz", "user", "password");
             System.out.println("Connection is done!");
             
             //drop the tables if any
