@@ -1,5 +1,5 @@
 <?php
-    $con_database = mysqli_connect('dijkstra.ug.bcc.bilkent.edu.tr', 'firat.yildiz', 'GUIALvOp','firat_yildiz');
+    $con_database = mysqli_connect('dijkstra.ug.bcc.bilkent.edu.tr', 'user', 'password','firat_yildiz');
     session_start();
     if (!$con_database) {
         echo "<h1>Conection Error</h1>";
